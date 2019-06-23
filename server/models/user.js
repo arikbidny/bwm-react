@@ -28,7 +28,11 @@ const userSchema = new Schema({
             type: Schema.ObjectId,
             ref: 'Rental'
         }
-    ]
+    ],
+    bookings: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Booking'
+    }]
 });
 
 // userSchema.pre('save', next => {
