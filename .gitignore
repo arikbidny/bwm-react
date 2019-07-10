@@ -24,3 +24,6 @@ yarn-error.log*
 
 /server/config/dev.js
 /server/.vscode
+
+# Ignore all css files
+/src/**/*.css
